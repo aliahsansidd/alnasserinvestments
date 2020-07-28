@@ -1,63 +1,7 @@
 <template>
   <div class="hello">
-    <div class="con">
-      <div class="header">
-        <div class="icon-container">
-          <div id="menuicon">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-          </div>
-        </div>
-        <div class="mobile-menu">
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="#">Mac</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">iPad</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">iPhone</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Watch</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">TV</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Music</a>
-            </li>
-            <li class="menu-item">
-              <a href="#">Support</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- <div class="mobile-menu-right" id="right-menu">
-      <p class="book-session"> <img src="../assets/img/cr.png"> </p>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Investment</a></li>
-        <li><a href="#">Carrirers</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>-->
-
+  
     <div class="banner" style></div>
-    <!-- <div class="toget-sec">
-        <div class="container">
-          <h1>
-            TOGETHER, WE
-            <span>SUCCEED</span>
-          </h1>
-        </div>
-    </div>-->
-    <!-- :autoPlay="true" -->
     <hooper :playSpeed="2000">
       <slide>
         <div class="toget-sec">
@@ -156,7 +100,7 @@
                     <label>Enter your message</label>
                     <!-- <input type="text" name="Message" placeholder="Message" style="height: 150px;"> -->
                     <textarea placeholder="Message"></textarea>
-                    <!-- <a href>Submit</a> -->
+                    <a href>Submit</a>
                   </div>
                 </div>
               </div>

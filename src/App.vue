@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <router-view />
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Header from './shared/Header.vue';
+import Footer from './shared/Footer.vue';
 import { Hooper, Slide } from 'hooper';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Footer
   }
 }
 </script>

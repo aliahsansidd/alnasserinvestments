@@ -1,0 +1,38 @@
+.hooper{
+    height: 100%;
+}
+.hooper-prev {
+    left: 21px;
+    padding: 0;
+    &:focus{
+        outline: none;
+    }
+    /* font-size: 0px; */
+}
+.hooper-next {
+    right: 18px;
+    padding: 0;
+    &:focus{
+        outline: none;
+    }
+}
+svg{
+    color: white !important;
+    fill: white;
+    /* font-size: 30px; */
+    height: 82px;
+    width: 99px;
+}
+.hooper-list .hooper-track .hooper-slide .is-active .is-current{
+    &:focus{
+        outline: none !important;
+        border: none;
+    }
+    &:active{
+        outline: none !important;
+        border: none;
+    }
+}
+.hooper-next.is-disabled, .hooper-prev.is-disabled{
+    opacity: 1 !important;
+}

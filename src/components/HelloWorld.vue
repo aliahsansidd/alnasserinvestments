@@ -1,58 +1,339 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+<div class="con">
+          <div class="header">
+      <div class="icon-container">
+        <div id="menuicon">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <ul class="menu">
+          <li class="menu-item"><a href="#">Mac</a>
+          </li>
+          <li class="menu-item"><a href="#">iPad</a>
+          </li>
+          <li class="menu-item"><a href="#">iPhone</a>
+          </li>
+          <li class="menu-item"><a href="#">Watch</a>
+          </li>
+          <li class="menu-item"><a href="#">TV</a>
+          </li>
+          <li class="menu-item"><a href="#">Music</a>
+          </li>
+          <li class="menu-item"><a href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+    <header>
+      <div class="logo-box">
+        <img src="../assets/img/logo.png" alt />
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li class="active">
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+
+            <div class="sub-menu">
+              <ul>
+                <li>
+                  <a href>About The Company</a>
+                </li>
+                <li>
+                  <a href>About The chairman</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">INVESTMENTS</a>
+            <div class="sub-menu">
+              <ul>
+                <li>
+                  <a href>Our Investment</a>
+                </li>
+                <li>
+                  <a href>Perroleom Sector</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">CARRERS</a>
+          </li>
+          <li>
+            <a href="#">CONTACT US</a>
+          </li>
+        </ul>
+        <div class="mobile-menu book-session">
+          <img src="../assets/img/mb-btn.png" alt="">
+        </div>
+
+      </div>
+    </header>
+
+    <!-- <div class="mobile-menu-right" id="right-menu">
+      <p class="book-session"> <img src="../assets/img/cr.png"> </p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Investment</a></li>
+        <li><a href="#">Carrirers</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div> -->
+
+    <div class="banner" style></div>
+      <!-- <div class="toget-sec">
+        <div class="container">
+          <h1>
+            TOGETHER, WE
+            <span>SUCCEED</span>
+          </h1>
+        </div>
+      </div> -->
+<!-- :autoPlay="true" -->
+   <hooper  :playSpeed="2000">
+    <slide>
+       <div class="toget-sec">
+        <div class="container">
+          <h1>
+            TOGETHER, WE
+            <span>SUCCEED</span>
+          </h1>
+        </div>
+      </div>
+    </slide>
+    <slide>
+       <div class="toget-sec">
+        <div class="container">
+          <h1>
+            TOGETHER, WE
+            <span>SUCCEED</span>
+          </h1>
+        </div>
+      </div>
+    </slide>
+  
+    <hooper-navigation slot="hooper-addons"></hooper-navigation>
+  </hooper>
+    <div class="about">
+      <h1>ABOUT</h1>
+      <span></span>
+      <p>AL Nasser Investment Company is a leading company in the investment field with a track record of excellence dating back over 40 years. Al Nasser Investment Company maintains a globally competitive, strategic portfolio across more than a dozen asset and sub-asset classes, including investments across both local and international markets. We have adopted ethical values and behaviors. Such values we follow as a group, within our businesses and also as individuals. A business idea is just another idea. However, an idea supported by clear logic, a robust business strategy, and a knowledgeable team is no longer an idea. This is a great investment venture that is worth pursuing now.</p>
+    </div>
+
+    <div class="about-image-box">
+      <div class="about-image"></div>
+    </div>
+
+    <div class="fluid-box">
+      <div class="fluid-left" >
+        <p>Our Kingdom-wide reach has allowed us to build a dynamic atmosphere that brings fresh insights to any challenge and opportunity. As a result, we have acquired multiple and broad ranges of perceptions and experiences, which encouraged our strength and expanded our domestic and international investments. We are open to more investments and new opportunities. Our goal is to invest in new sectors and build a strong portfolio that will be well-known around the world. Also, we would like to have new business partners. We believe that diversity encourages performance. We don't just respect variation; we are consciously looking out and welcoming the difference.</p>
+      </div>
+      <div class="fluid-right">
+        <div class="fluid-image"></div>
+      </div>
+    </div>
+
+    <section class="contact">
+      <div class="sec-padding" style="padding-bottom:0px;">
+        <div class="contact-head">
+          <h1>CONTACT US</h1>
+          <span></span>
+        </div>
+        <div class="map">
+          <!-- <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7580750.020638232!2d72.55749969601706!3d21.913855825601452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1595683184745!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            frameborder="0"
+            style="border:0; margin-bottom: 35px;"
+            allowfullscreen
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.296424991509!2d67.11549711432139!3d24.921969848928693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338c29d7489c5%3A0x4adc541f71acb866!2sKing&#39;s%20Tower%2C%20Block%2015%20Gulistan-e-Johar%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1595925380496!5m2!1sen!2s" width="100%" height="390" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <div class="contact-detail">
+            <div class="contact-detail1">
+              <div class="inqui">
+                <h4>Inquiries</h4>
+                <p>
+                  Please use the below methods to contact for a
+                  <br />proposal, inquiries, investment, or job application.
+                </p>
+              </div>
+              <div class="contact-form">
+                <h4>Contact Us</h4>
+                <div class="formm">
+                  <div class="detail">
+                    <label>Enter Your Name</label>
+                    <input type="text" name="Name" placeholder="Name" />
+                  </div>
+                  <div class="detail">
+                    <label>Enter Your Email</label>
+                    <input type="email" name="Email" placeholder="Email" />
+                  </div>
+                  <div class="detail">
+                    <label>Enter Your Subject</label>
+                    <input type="text" name="Subject" placeholder="Subject" />
+                  </div>
+                  <div class="detail">
+                    <label>Enter your message</label>
+                    <!-- <input type="text" name="Message" placeholder="Message" style="height: 150px;"> -->
+                    <textarea placeholder="Message"></textarea>
+                    <!-- <a href>Submit</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-detail2">
+              <div class="inqui">
+                <h4>Head Office</h4>
+                <p>
+                  King's Road Tower, 10th Floor, 1009
+                  <br />King Abdulaziz Road, Jeddah, Saudi Arabia
+                </p>
+              </div>
+              <ul>
+                <li>
+                  <img src="../assets/img/lo.jpg"/>
+                  <span>P.O. Box 2388 Jeddah 21436, Saudi Arabia</span>
+                </li>
+               <li>
+<img src="../assets/img/phone.png" style="width: 21px;
+    margin-top: 8px;"><span>P.O. Box 2388 Jeddah 21436, Saudi Arabia</span>
+</li>
+<li>
+<img src="../assets/img/envo.png" style="width: 20px;
+    margin-top: 7px;"><span>P.O. Box 2388 Jeddah 21436, Saudi Arabia</span>
+</li>
+              </ul>
+              <div class="social">
+                <h4>Stay In Touch</h4>
+                <ul>
+                <li><img src="../assets/img/link1.png" height="22" width="22"></li>
+<li><img src="../assets/img/face.png" style="    height: 22px;
+    width: 25px;"></li>
+<li><img src="../assets/img/twitter.png" style="    height: 21px;
+    width: 24px;"></li>
+<li><img src="../assets/img/insta.png" height="22"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sub-box">
+      <div class="sub-btn-box">
+          <a href>Submit</a>
+      </div>
+      <div class="sub-line-box">
+          <span></span>
+      </div>
+    </div>
+
+    <section class="fotter">
+      <div class="">
+        <div class="logodiv">
+          <img src="../assets/img/footer-logo.png" />
+        </div>
+        <div class="fotter-sec2">
+          <div class="social">
+            <ul>
+              <li><img src="../assets/img/link.png"></li>
+<li><img src="../assets/img/foter.png"></li>
+<li><img src="../assets/img/twitter-logo.png"></li>
+<li><img src="../assets/img/insta-1.png"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
+import { Hooper, Slide,Navigation as HooperNavigation } from 'hooper';
+import 'hooper/dist/hooper.css';
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
+  components:{
+    Hooper,
+    Slide,
+    HooperNavigation,
+  },
+  
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+@import "https://rawgit.com/kenwheeler/slick/master/slick/slick.css";
+@import "https://rawgit.com/kenwheeler/slick/master/slick/slick-theme.css";
+</style>
+
+<style scoped>
+/* For demo */
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width:100%;
+  opacity: 1;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width:100%;
+  opacity: 0;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+/* img {
+  height:600px;
+  width:100%
+} */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.7s ease;
+  border-radius: 0 4px 4px 0;
+  text-decoration: none;
+  user-select: none;
 }
-a {
-  color: #42b983;
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.9);
 }
 </style>

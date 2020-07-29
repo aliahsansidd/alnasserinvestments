@@ -196,7 +196,7 @@ header{
 }
 .toget-sec{
     width: 100%;
-    display:display;
+    // display:display;
     position: relative;
     margin-top: 58px;
     .container{
@@ -283,30 +283,41 @@ background-repeat: no-repeat;
         width: 40%;
         float: left;
         background: #3d5975;
-        padding: 119px 51px;
+        // padding: 119px 51px;
         height: 526px;
-        @media only screen and (max-width: 1138px) {
-          padding: 69px 51px;
-          }
-          @media only screen and (max-width: 1116px) {
-            padding: 46px 51px;
+        
+          // @media only screen and (max-width: 1116px) {
+          //   padding: 46px 51px;
 
-            }
+          //   }
 
-            @media only screen and (max-width: 973px) {
-                padding: 46px 29px;
+            // @media only screen and (max-width: 973px) {
+            //     padding: 46px 29px;
     
-                }
+            //     }
             
         p{
             font-size: 16px;
             text-align: justify;
             font-family: avenir-lt-w01_35-light1475496,sans-serif;
             color: white;
+            padding: 108px 50px;
+            line-height: 27px;
+            @media only screen and (max-width: 1101px) {
+              padding-top: 54px !important;
+              }
+
+              @media only screen and (max-width: 1008px) {
+                line-height: 24px;
+                }
             @media only screen and (max-width: 1026px) {
                 font-size: 16px;
     
                 }
+                @media only screen and (max-width: 943px) {
+                  padding: 29px;
+      
+                  }
         }
         @media only screen and (max-width: 836px) {
             width: 100% !important;
@@ -392,10 +403,11 @@ background-repeat: no-repeat;
     // z-index: -1;
 
     .contact-detail1{
-        text-align:left;
-        width: 63%;
-    float: left;
-    padding-right: 136px;
+      text-align: left;
+      width: 48%;
+      float: left;
+      padding-right: 96px;
+  
     // z-index: -1;
 
     .inqui{
@@ -640,9 +652,9 @@ background-repeat: no-repeat;
         display: table;
         padding-bottom: 70px;
         .sub-btn-box{
-            width: 57%;
+            width: 50%;
             float: left;
-            padding-right: 107px;
+            padding-right: 84px;
             a{
                 background: #3b3a3a;
     color: #EDCD1F;
@@ -665,7 +677,7 @@ background-repeat: no-repeat;
     border-top: 10px solid #edcd1f;
     display: inline-block;
     float: left;
-    margin-top: 38px;
+    margin-top: 29px;
             }
 
         }
@@ -789,7 +801,7 @@ background-repeat: no-repeat;
               float: left;
               img{
                 float: left;
-                width: 408px;
+                width: 358px;
                 padding-left: 24px;
                 margin-top: 0px;
                 @media only screen and (max-width: 502px) {
@@ -812,11 +824,13 @@ background-repeat: no-repeat;
           }
           @media only screen and (max-width: 1079px) {
             display: block;
-            display: table;
+            /* display: table; */
             width: 100%;
             background: white;
             position: fixed;
             top: 0;
+            height: 98px;
+            z-index: 99999999;
             
             }
       }
@@ -914,4 +928,1234 @@ background-repeat: no-repeat;
           #chck2{
             display: none;
         }
+      }
+
+
+
+
+
+
+      // ***********************about-company*****************************************
+.linnes{
+  width: 75px;
+  border-top: 10px solid #edcd1f;
+  display: inline-block;
+  }
+  #abt-company{
+    text-align: left;
+  position:relative;
+  padding-bottom: 80px;
+  width: 100%;
+  display: table;
+  margin-top: 114px;
+
+  .abt-company-main{
+  width: 100%;
+  
+  .abt-company-1{
+  width: 50%;
+  float: left;
+  .abt-company-img{
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/about-com.jpg');
+  @media (max-width: 991px){
+  height: 350px;
+  }
+  }
+  @media (max-width: 991px){
+  width: 100%;
+  }
+  }
+  .abt-company-2{
+  width: 50%;
+  float: left;
+  height: 520px;
+  .abt-company-content{
+  width: 464px;
+  margin-left: 30px;
+  margin-top: 20px;
+  h2{
+  color: #6d6a6a;
+  letter-spacing: 0.05em;
+  font-size: 52px;
+  line-height: 0.9em;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  margin-top: 35px;
+  @media(max-width: 460px){
+  font-size: 40px;
+  }
+  }
+  p{
+    color: #3b3a3abd;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
+  @media (max-width: 1024px){
+  width: 100%;
+  padding-right:10px;
+  margin-left: 0px;
+  padding-left:30px;
+  }
+  @media (max-width: 991px){
+  padding-right:15px;
+  padding-left:15px;
+  }
+  
+  }
+  @media (max-width: 991px){
+  width: 100%;
+  height: auto;
+  padding-top:25px;
+  }
+  }
+  }
+  @media (max-width: 991px){
+  padding-bottom: 40px;
+  }
+  }
+  // ***********************about-company-end*****************************************
+  .linne{
+  text-align: center;
+  }
+  .fltright{
+  float: right !important;
+  }
+  
+  #abt-vission{
+  padding: 20px 0px 70px 0px;
+  .abt-vission-head{
+  text-align: center;
+  h3{
+  color: #757373;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  
+  }
+  p{
+  color: #3b3a3ad9;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 35px;
+  
+  @media (max-width: 1090px){
+  width: 80%;
+  }
+  @media (max-width: 685px){
+  width: 90%;
+  }
+  @media (max-width: 610px){
+  font-size: 15px;
+  }
+  }
+  
+  }
+  .abt-vis-mis{
+  width: 940px;
+  display: table;
+  margin: 0 auto;
+  .abt-mis-main{
+  width: 100%;
+  padding-top: 60px;
+  
+  .abt-mis-main1{
+  width: 49%;
+  position: relative;
+  float: left;
+  // padding:0px 15px;
+  height: 463px;
+  background-image: url('../assets/img/vission.jpg');
+  .abt-mis-cont{
+  position:relative;
+  padding: 50px 50px 50px 50px;
+  h4{
+  color: #d4b50d;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 15px;
+  }
+  p{
+    color: white;
+    font-size: 17px;
+    line-height: 29px;
+    margin-bottom: 70px;
+    font-weight: 400;
+  @media(max-width: 810px){
+  margin-bottom: 40px;
+  }
+  }
+  .comma-img{
+  width: 50px;
+  margin: 0 auto;
+  img{
+    width: 47px;
+  }
+  @media(max-width: 460px){
+  width: 40px;
+  }
+  }
+  @media(max-width: 940px){
+  padding:35px;
+  }
+  @media(max-width: 460px){
+  padding:20px;
+  }
+  }
+  &:before{
+  position:absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 89, 117, 0.61);
+  left:0;
+  }
+  @media(max-width: 940px){
+  padding:0px;
+  height: 450px;
+  }
+  @media(max-width: 767px){
+  width: 100%;
+  margin-bottom: 25px;
+  height: auto;
+  float: none;
+  background-size:cover;
+  background-position: center;
+  }
+  }
+  @media(max-width: 460px){
+  padding-top:30px;
+  }
+  }
+  @media(max-width: 991px){
+  width: 96%;
+  }
+  }
+  @media(max-width: 767px){
+  padding:20px 0px 40px 0px;
+  }
+  }
+  
+  #abt-found{
+  position:relative;
+  width: 100%;
+  background-color:#f7f7f7;
+  display: table;
+  margin-top: 114px;
+text-align:left;
+  .abt-found-main{
+  width: 100%;
+  
+  .abt-found-1{
+  width: 50%;
+  float: left;
+  .abt-found-img{
+  height: 540px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/img/about-found.jpg');
+  @media (max-width: 991px){
+  height: 350px;
+  }
+  }
+  @media (max-width: 991px){
+  width: 100%;
+  }
+  }
+  .abt-found-2{
+  width: 50%;
+  float: left;
+  height: 540px;
+  .abt-found-content{
+  width: 464px;
+  margin-left: 30px;
+  margin-top: 20px;
+  h2{
+  color: #757373;
+  letter-spacing: 0.05em;
+  font-size: 52px;
+  line-height: 0.9em;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  @media(max-width: 460px){
+  font-size: 40px;
+  }
+  @media(max-width: 380px){
+  font-size: 34px;
+  }
+  }
+  p{
+  color: #3b3a3acf;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  }
+  @media (max-width: 1024px){
+  width: 100%;
+  padding-right:10px;
+  margin-left: 0px;
+  padding-left:30px;
+  }
+  @media (max-width: 991px){
+  padding-right:15px;
+  padding-left:15px;
+  }
+  }
+  @media (max-width: 991px){
+  width: 100%;
+  height: auto;
+  padding-top:25px;
+  }
+  }
+  }
+  @media (max-width: 991px){
+  padding-bottom: 40px;
+  }
+  }
+
+
+
+  // ***************************// #about-foun
+
+
+#abt-foun{
+  padding: 80px 0px 70px 0px;
+  .abt-vission-head{
+  text-align: center;
+  h3{
+  color: #757373;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 20px 0px;
+  
+  }
+  p{
+  color: #3B3A3A;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  
+  @media (max-width: 1090px){
+  width: 80%;
+  }
+  @media (max-width: 685px){
+  width: 90%;
+  }
+  @media (max-width: 610px){
+  font-size: 15px;
+  }
+  }
+  
+  }
+  
+  @media(max-width: 767px){
+  padding:20px 0px 40px 0px;
+  }
+  }
+  // ***************************// #about-foun
+
+
+
+
+  // ***************************// #about-startege
+#about-startege{
+  height: 78vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position:relative;
+  margin-top: 114px;
+  background-image: url('../assets/img/about-ban.jpg');
+
+  .about-startege2{
+  width: 50%;
+  float: right;
+  height: 100%;
+  background-color: rgba(255, 255, 254, 0.74);
+  padding: 40px 40px;
+  padding-bottom: 0;
+  h3{
+  color: #444444;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  }
+  p{
+  font-size: 16px;
+  }
+  ul{
+  list-style-type: none;
+  margin-top: 20px;
+  li{
+  display: flex;
+  margin-bottom: 15px;
+  img{
+  width: 22px;
+  margin-right: 20px;
+  }
+  span{
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2px;
+  @media(max-width: 460px){
+  font-size: 15px;
+  }
+  }
+  }
+  }
+  @media(max-width: 776px){
+  width: 100%;
+  float: none;
+  }
+  @media(max-width: 460px){
+  padding:40px 20px;
+  }
+  }
+  @media(max-width: 776px){
+  padding-top: 50%;
+  height: auto;
+  }
+  @media(max-width: 540px){
+  height: auto;
+  }
+  }
+  // ***************************// #about-startege
+  
+  
+  
+  
+
+
+
+
+      // ***************************// #about-philospy
+#about-philospy{
+  background-image: url('../assets/img/carrie-ban.jpg');
+  height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position:relative;
+    margin-top: 114px;
+    margin-bottom: 41px;
+    text-align:left;
+  .about-startege2{
+       width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    background-color: rgba(255, 255, 254, 0.74);
+        padding: 40px 40px;
+.startege2-main{
+  width: 75%;
+          h3{
+           color: #444444;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+        }
+        p{    
+          font-size: 16px;
+    margin-bottom: 22px;
+
+        }
+        ul{   
+         margin-top: 20px;
+         padding-left: 20px;
+          li{
+                margin-bottom: 15px;
+            img{
+             width: 22px;
+    margin-right: 20px;
+            }
+            span{
+                  display: inline-block;
+    font-size: 16px;
+        margin-top: 2px;
+         @media(max-width: 460px){
+          font-size: 15px;
+         }
+            }
+          }
+        }
+@media(max-width: 1200px){
+  width: 90%;
+}
+@media(max-width: 991px){
+  width: 100%;
+}
+}
+        @media(max-width: 776px){
+          width: 100%;
+          margin-left: 0;
+
+        }
+        @media(max-width: 460px){
+          padding:40px 20px;
+        }
+  }
+  @media(max-width: 776px){
+    padding-top: 50%;
+    height: auto;
+  }
+}
+// ***************************// #about-philospy
+
+
+
+
+
+
+
+
+
+// ***************************// #about-philospy
+#about-philospy1{
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position:relative;
+  margin-top: 114px;
+  margin-bottom: 41px;
+  background-image: url(../assets/img/about-ban.jpg);
+  text-align: left;
+  .about-startege2{
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  background-color: rgba(255, 255, 254, 0.74);
+  padding: 40px 40px;
+  .startege2-main{
+  width: 75%;
+  h3{
+  color: #444444;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  }
+  p{
+  font-size: 16px;
+  margin-bottom: 22px;
+  
+  }
+  ul{
+  margin-top: 20px;
+  padding-left: 20px;
+  li{
+  margin-bottom: 15px;
+  img{
+  width: 22px;
+  margin-right: 20px;
+  }
+  span{
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2px;
+  @media(max-width: 460px){
+  font-size: 15px;
+  }
+  }
+  }
+  }
+  @media(max-width: 1200px){
+  width: 90%;
+  }
+  @media(max-width: 991px){
+  width: 100%;
+  }
+  }
+  @media(max-width: 776px){
+  width: 100%;
+  margin-left: 0;
+  
+  }
+  @media(max-width: 460px){
+  padding:40px 20px;
+  }
+  }
+  @media(max-width: 776px){
+  padding-top: 50%;
+  height: auto;
+  }
+  }
+  // ***************************// #about-philospy
+
+
+
+
+
+
+  // <!-- ******************************our-investment*********************************** -->
+
+
+
+#our-investment{
+  height: auto;
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position:relative;
+  background-image: url('../assets/img/investment.jpg');
+  margin-top: 114px;
+  text-align: left;
+  margin-bottom: 41px;
+  .about-startege2{
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  background-color: rgba(255, 255, 254, 0.74);
+  padding: 40px 40px;
+  .startege2-main{
+  width: 75%;
+  h3{
+  color: #444444;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  }
+  p{
+  font-size: 16px;
+  margin-bottom: 22px;
+  line-height: 1.5;
+  
+  }
+  ul{
+  margin-top: 20px;
+  padding-left: 20px;
+  li{
+  margin-bottom: 15px;
+  img{
+  width: 22px;
+  margin-right: 20px;
+  }
+  span{
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2px;
+  @media(max-width: 460px){
+  font-size: 15px;
+  }
+  }
+  }
+  }
+  @media(max-width: 1200px){
+  width: 90%;
+  }
+  @media(max-width: 991px){
+  width: 100%;
+  }
+  }
+  @media(max-width: 776px){
+  width: 100%;
+  margin-left: 0;
+  
+  }
+  @media(max-width: 460px){
+  padding:40px 20px;
+  }
+  }
+  @media(max-width: 776px){
+  padding-top: 50%;
+  height: auto;
+  }
+  }
+  
+  // <!-- ******************************our-investment*********************************** -->
+
+
+
+
+
+
+
+  #petroleum-sector{
+  margin-top: 114px;
+  text-align: left;
+    .investment-container{
+    width: 980px;
+    margin: 0 auto;
+    .investment-head{
+    padding: 35px 10px;
+    h1{
+    color: #757373;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 15px;
+    }
+    p{
+    margin-bottom: 34px;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: 500;
+    }
+    }
+    .investment-box{
+    padding: 40px 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/img/crystal.jpg);
+    .investment-box-main{
+    width: 100%;
+    .investment-box-img{
+    float: left;
+    width: 16%;
+    padding-right: 20px;
+    img{
+    height: 180px;
+    @media(max-width: 700px){
+      display: block;
+      margin: auto;
+      }
+    }
+    @media(max-width: 991px){
+      width: 22%;
+      }
+      @media(max-width: 700px){
+        width: 100%;
+        }
+    }
+    .investment-box-content{
+    width: 80%;
+    float: left;
+    h5{
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-size: 27px;
+    @media(max-width: 700px){
+      text-align:center;
+      }
+    }
+    h6{
+    color: #2C6FB0;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 6px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    @media(max-width: 700px){
+      text-align:center;
+      }
+    }
+    p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 21px;
+    }
+    @media(max-width: 991px){
+      width: 72%;
+      }
+      @media(max-width: 700px){
+        width: 100%;
+        }
+    }
+    }
+    @media(max-width: 923px){
+      padding: 26px 9px;
+      }
+  
+    }
+    @media(max-width: 1024px){
+    width: 96%;
+    }
+   
+    }
+    }
+
+
+
+
+     // <!-- ******************************our-investment*********************************** -->
+
+
+
+
+
+
+
+  #power-sector{
+    margin-top: 114px;
+    text-align: left;
+      .investment-container{
+      width: 980px;
+      margin: 0 auto;
+      .investment-head{
+      padding: 35px 10px;
+      h1{
+      color: #757373;
+      margin: 0;
+      line-height: normal;
+      letter-spacing: normal;
+      font-weight: 600;
+      font-size: 52px;
+      margin-bottom: 15px;
+      }
+      p{
+      margin-bottom: 34px;
+      font-size: 15px;
+      letter-spacing: normal;
+      line-height: normal;
+      font-weight: 500;
+      }
+      }
+      .investment-box{
+      padding: 40px 30px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../assets/img/crystal.jpg);
+      .investment-box-main{
+      width: 100%;
+      .investment-box-img{
+      float: left;
+      width: 31%;
+      padding-right: 20px;
+      img{
+      height: 180px;
+      @media(max-width: 700px){
+        display: block;
+        margin: auto;
+        }
+      }
+      @media(max-width: 991px){
+        width: 31%;
+        }
+        @media(max-width: 878px){
+          width: 36%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      .investment-box-content{
+      width: 65%;
+      float: left;
+      h5{
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: normal;
+      font-size: 34px;
+      margin-bottom: 20px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      h6{
+      color: #2C6FB0;
+      font-weight: 500;
+      line-height: normal;
+      padding-top: 6px;
+      padding-bottom: 15px;
+      font-size: 18px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      p{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: justify;
+      line-height: 21px;
+      }
+      @media(max-width: 991px){
+        width: 65%;
+        }
+        @media(max-width: 878px){
+          width: 61%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      }
+      @media(max-width: 923px){
+        padding: 26px 9px;
+        }
+    
+      }
+      @media(max-width: 1024px){
+      width: 96%;
+      }
+     
+      }
+      }
+
+
+      // <!-- ******************************our-investment*********************************** -->
+
+
+
+
+
+
+
+  #real-sector{
+    margin-top: 114px;
+    text-align: left;
+      .investment-container{
+      width: 980px;
+      margin: 0 auto;
+      .investment-head{
+      padding: 35px 10px;
+      h1{
+      color: #757373;
+      margin: 0;
+      line-height: normal;
+      letter-spacing: normal;
+      font-weight: 600;
+      font-size: 47px;
+      margin-bottom: 15px;
+      }
+      p{
+      margin-bottom: 34px;
+      font-size: 15px;
+      letter-spacing: normal;
+      line-height: normal;
+      font-weight: 500;
+      }
+      }
+      .investment-box{
+      padding: 40px 30px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../assets/img/crystal.jpg);
+      .investment-box-main{
+      width: 100%;
+      .investment-box-img{
+      float: left;
+      width: 31%;
+      padding-right: 20px;
+      img{
+      height: 180px;
+      @media(max-width: 700px){
+        display: block;
+        margin: auto;
+        }
+      }
+      @media(max-width: 991px){
+        width: 31%;
+        }
+        @media(max-width: 878px){
+          width: 36%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      .investment-box-content{
+      width: 65%;
+      float: left;
+      h5{
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: normal;
+      font-size: 34px;
+      margin-bottom: 20px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      h6{
+      color: #2C6FB0;
+      font-weight: 500;
+      line-height: normal;
+      padding-top: 6px;
+      padding-bottom: 15px;
+      font-size: 18px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      p{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: justify;
+      line-height: 21px;
+      }
+      @media(max-width: 991px){
+        width: 65%;
+        }
+        @media(max-width: 878px){
+          width: 61%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      }
+      @media(max-width: 923px){
+        padding: 26px 9px;
+        }
+    
+      }
+      @media(max-width: 1024px){
+      width: 96%;
+      }
+     
+      }
+      }
+
+      
+      // <!-- ******************************our-investment*********************************** -->
+
+
+
+
+
+
+
+  #health-sector{
+    margin-top: 114px;
+    text-align: left;
+      .investment-container{
+      width: 980px;
+      margin: 0 auto;
+      .investment-head{
+      padding: 35px 10px;
+      h1{
+      color: #757373;
+      margin: 0;
+      line-height: normal;
+      letter-spacing: normal;
+      font-weight: 600;
+      font-size: 47px;
+      margin-bottom: 15px;
+      }
+      p{
+      margin-bottom: 34px;
+      font-size: 15px;
+      letter-spacing: normal;
+      line-height: normal;
+      font-weight: 500;
+      }
+      }
+      .investment-box{
+      padding: 40px 30px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../assets/img/crystal.jpg);
+      .investment-box-main{
+      width: 100%;
+      .investment-box-img{
+      float: left;
+      width: 31%;
+      padding-right: 20px;
+      img{
+      height: 180px;
+      @media(max-width: 700px){
+        display: block;
+        margin: auto;
+        }
+      }
+      @media(max-width: 991px){
+        width: 31%;
+        }
+        @media(max-width: 878px){
+          width: 36%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      .investment-box-content{
+      width: 65%;
+      float: left;
+      h5{
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: normal;
+      font-size: 34px;
+      margin-bottom: 20px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      h6{
+      color: #2C6FB0;
+      font-weight: 500;
+      line-height: normal;
+      padding-top: 6px;
+      padding-bottom: 15px;
+      font-size: 18px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      p{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: justify;
+      line-height: 21px;
+      }
+      @media(max-width: 991px){
+        width: 65%;
+        }
+        @media(max-width: 878px){
+          width: 61%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      }
+      @media(max-width: 923px){
+        padding: 26px 9px;
+        }
+    
+      }
+      @media(max-width: 1024px){
+      width: 96%;
+      }
+     
+      }
+      }
+
+
+            // <!-- ******************************our-investment*********************************** -->
+
+
+
+
+
+
+
+  #it-sector{
+    margin-top: 114px;
+    text-align: left;
+      .investment-container{
+      width: 980px;
+      margin: 0 auto;
+      .investment-head{
+      padding: 35px 10px;
+      h1{
+      color: #757373;
+      margin: 0;
+      line-height: normal;
+      letter-spacing: normal;
+      font-weight: 600;
+      font-size: 47px;
+      margin-bottom: 15px;
+      }
+      p{
+      margin-bottom: 34px;
+      font-size: 15px;
+      letter-spacing: normal;
+      line-height: normal;
+      font-weight: 500;
+      }
+      }
+      .investment-box{
+      padding: 40px 30px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../assets/img/crystal.jpg);
+      .investment-box-main{
+      width: 100%;
+      .investment-box-img{
+      float: left;
+      width: 31%;
+      padding-right: 20px;
+      img{
+      height: 180px;
+      @media(max-width: 700px){
+        display: block;
+        margin: auto;
+        }
+      }
+      @media(max-width: 991px){
+        width: 31%;
+        }
+        @media(max-width: 878px){
+          width: 36%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      .investment-box-content{
+      width: 65%;
+      float: left;
+      h5{
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: normal;
+      font-size: 34px;
+      margin-bottom: 20px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      h6{
+      color: #2C6FB0;
+      font-weight: 500;
+      line-height: normal;
+      padding-top: 6px;
+      padding-bottom: 15px;
+      font-size: 18px;
+      @media(max-width: 700px){
+        text-align:center;
+        }
+      }
+      p{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: justify;
+      line-height: 21px;
+      }
+      @media(max-width: 991px){
+        width: 65%;
+        }
+        @media(max-width: 878px){
+          width: 61%;
+          }
+        @media(max-width: 700px){
+          width: 100%;
+          }
+      }
+      }
+      @media(max-width: 923px){
+        padding: 26px 9px;
+        }
+    
+      }
+      @media(max-width: 1024px){
+      width: 96%;
+      }
+     
+      }
       }

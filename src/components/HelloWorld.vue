@@ -2,7 +2,7 @@
   <div class="hello">
   
     <div class="banner" style></div>
-    <hooper :playSpeed="2000">
+    <hooper :playSpeed="2000" :autoPlay="true">
       <slide>
         <div class="toget-sec">
           <div class="container">
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <section class="contact">
+    <section class="contact" id="contactus">
       <div class="sec-padding" style="padding-bottom:0px;">
         <div class="contact-head">
           <h1>CONTACT US</h1>
@@ -185,8 +185,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import "https://rawgit.com/kenwheeler/slick/master/slick/slick.css";
-@import "https://rawgit.com/kenwheeler/slick/master/slick/slick-theme.css";
 </style>
 
 <style scoped>

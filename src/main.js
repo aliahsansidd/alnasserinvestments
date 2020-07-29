@@ -2,9 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import './assets/home.scss'
 import './assets/slider.scss'
-import 'ant-design-vue/dist/antd.css';
 import $ from 'jquery';
-import { Carousel } from 'ant-design-vue';
 // import VueMatchHeights from 'vue-match-heights';
 Vue.config.productionTip = false
 import VueRouter from 'vue-router'
@@ -32,4 +30,3 @@ new Vue({
 
 }).$mount('#app')
 
-Vue.use(Carousel);

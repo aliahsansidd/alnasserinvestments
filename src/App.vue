@@ -10,7 +10,6 @@
 <script>
 import Header from './shared/Header.vue';
 import Footer from './shared/Footer.vue';
-import { Hooper, Slide } from 'hooper';
 export default {
   name: 'App',
   components: {

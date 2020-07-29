@@ -69,16 +69,25 @@
             <a href=""><router-link to='/home'>HOME</router-link></a>
           </li>
           <li>
-            <a href=""><router-link to='/about'>ABOUT US</router-link></a>
+            <a href="">ABOUT US</a>
 
             <div class="sub-menu">
               <ul>
                 <li>
-                  <a href>About The Company</a>
+                  <a href> <router-link to='/aboutcompany'> About The Company </router-link></a>
                 </li>
                 <li>
-                  <a href>About The chairman</a>
+                  <a href> <router-link to='/aboutchairman'> About The chairman </router-link> </a>
                 </li>
+
+                  <li>
+                  <a href> <router-link to='/ourstrategy'> Our Stategy </router-link> </a>
+                </li>
+
+                  <li>
+                  <a href> <router-link to='/philogy'> Our Philospy </router-link> </a>
+                </li>
+
               </ul>
             </div>
           </li>
@@ -87,19 +96,38 @@
             <div class="sub-menu">
               <ul>
                 <li>
-                  <a href>Our Investment</a>
+                  <a href> <router-link to='/ourinvestment'> Our Investment </router-link></a>
                 </li>
                 <li>
-                  <a href>Perroleom Sector</a>
+                  <a href> <router-link to='/petroleumsector'>Petroleum Sector </router-link></a>
                 </li>
+
+                  <li>
+                  <a href> <router-link to='/powersector'>Power Sector </router-link></a>
+                </li>
+
+                <li>
+                  <a href> <router-link to='/realstatesector'>Real State Sector </router-link></a>
+                </li>
+
+                <li>
+                  <a href> <router-link to='/healthsector'>Health Sector </router-link></a>
+                </li>
+
+                  <li>
+                  <a href> <router-link to='/itsector'>It Sector </router-link></a>
+                </li>
+
+               
               </ul>
             </div>
           </li>
           <li>
-            <a href="">CARRERS</a>
+            <a href=""> <router-link to='/carrier'>CARRERS</router-link></a>
+            
           </li>
           <li>
-            <a href="">CONTACT US</a>
+            <a href="http://localhost:8080/#contactus">  CONTACT US</a>
           </li>
         </ul>
         <div class="mobile-menu book-session">

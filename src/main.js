@@ -16,6 +16,10 @@ new Vue({
   render: h => h(App),
   router,
   mounted() {
+
+    $('.button1').on('load', function() {
+      $(".overlay").fadeIn("slow");
+    });
    
     $('.button1').on('click', function() {
       $(".overlay").fadeIn("slow");

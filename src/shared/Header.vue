@@ -75,7 +75,7 @@
         </div>
       </li>
        <li style="margin-top: 0; padding-top: 0;">CARRERS</li>
-      <li>CONTACT US</li>
+      <li><a href="http://mysite.codesation.com/#contactus">  CONTACT US</a></li>
 
     </ul>
   </nav>
@@ -152,7 +152,7 @@
             
           </li>
           <li>
-            <a href="http://localhost:8080/#contactus">  CONTACT US</a>
+            <a href="http://mysite.codesation.com/#contactus">  CONTACT US</a>
           </li>
         </ul>
         <div class="mobile-menu book-session">

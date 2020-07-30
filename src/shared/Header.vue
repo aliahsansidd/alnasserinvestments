@@ -20,13 +20,13 @@
   </div>
   <nav>
     <ul>
-      <li>Home</li>
-      <li>World</li>
-      <li>Our Strategy</li>
-      <li>About The Company</li>
-      <li style="padding-bottom: 0;">Home 1</li>
+      <li> <router-link to='/home'> Home </router-link></li>
+      <!-- <li>ABOUT</li> -->
+      <!-- <li>Our Strategy</li> -->
+      <!-- <li>About The Company</li> -->
+      <!-- <li style="padding-bottom: 0;">Home 1</li> -->
 
-      <li>
+      <li style="padding-bottom: 0;">
         <div class="accordian-main">
    <div class="col">
     <div class="tabs">
@@ -34,23 +34,48 @@
         <input type="checkbox" id="chck1">
         <label class="tab-label" for="chck1">About Us</label>
         <div class="tab-content">
-         About The Company 
+        <router-link to='/aboutcompany'>  About The Company </router-link>
         </div>
           <div class="tab-content">
-         About The Chairman 
+        <router-link to='/aboutchairman'>  About The Chairman </router-link>
+        </div>
+
+          <div class="tab-content">
+        <router-link to='/ourstrategy'>  Our Stategy</router-link>
+        </div>
+
+          <div class="tab-content">
+        <router-link to='/philogy'>  Our Philospy </router-link>
         </div>
       </div>
       <div class="tab">
         <input type="checkbox" id="chck2">
-        <label class="tab-label" for="chck2">Item 2</label>
+        <label class="tab-label" for="chck2">INVESTMENTS</label>
         <div class="tab-content">
-           About The Chairman 
+           <router-link to='/ourinvestment'> Our Investment </router-link>
+        </div>
+        <div class="tab-content">
+           <router-link to='/petroleumsector'>Petroleum Sector </router-link>
+        </div>
+        <div class="tab-content">
+           <router-link to='/powersector'>Power Sector </router-link>
+        </div>
+        <div class="tab-content">
+           <router-link to='/realstatesector'>Real State Sector </router-link>
+        </div>
+        <div class="tab-content">
+           <router-link to='/healthsector'>Health Sector </router-link>
+        </div>
+        <div class="tab-content">
+           <router-link to='/itsector'>It Sector </router-link>
         </div>
       </div>
     </div>
   </div>
         </div>
       </li>
+       <li style="margin-top: 0; padding-top: 0;">CARRERS</li>
+      <li>CONTACT US</li>
 
     </ul>
   </nav>

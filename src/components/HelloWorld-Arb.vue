@@ -7,7 +7,7 @@
         <div class="toget-sec">
           <div class="container">
             <h1>
-             "Success is the sum of small efforts, repeated day in and day out." 
+             "النجاح هو مجموع الجهود الصغيرة، المتكررة يوما بعد يوم."
             </h1>
           </div>
         </div>
@@ -16,7 +16,7 @@
         <div class="toget-sec">
           <div class="container">
             <h1>
-                 Delivering excellence is our priority 
+              تقديم التميز هو أولويتنا
             </h1>
           </div>
         </div>
@@ -26,7 +26,7 @@
         <div class="toget-sec">
           <div class="container">
             <h1>
-              Together we succeed! 
+              معا ننجح!
             </h1>
           </div>
         </div>
@@ -35,11 +35,11 @@
       <hooper-navigation slot="hooper-addons"></hooper-navigation>
     </hooper>
     <div class="about">
-      <h1>ABOUT US</h1>
+      <h1>نبذة عنا </h1>
       <span></span>
-      <p style="text-align: left;">Al Nasser Investment Company is a leading investment company with a track record of excellence dating back more than 40 years.</p>
-      <p style="text-align: left;">Al Nasser Investment Company maintains a competitive global strategic portfolio of asset classes and sub-assets, including investments across the domestic and international markets. We have adopted the ethical values and behaviors we follow as a group or individuals in our work.</p>
-      <p style="text-align: left;">Any business idea is just a regular idea.But the idea supported by clear logic, a strong business strategy, and an expert team becomes more than an idea, as it is a large investment project that deserves the implementation immediately.</p>
+      <p>شركة ال ناصر للاستثمار هي شركة رائدة في مجال الاستثمار ولها سجل حافل بالتميز يعود تاريخه إلى أكثر من 40 عامًا.</p>
+      <p>تحتفظ شركة ال ناصر للاستثمار بملف إستراتيجي تنافسي عالمي من فئات الأصول والأصول الفرعية، بما في ذلك الاستثمارات عبر الأسواق المحلية والدولية. لقد اعتمدنا القيم والسلوكيات الأخلاقية التي نتبعها كمجموعة أو أفراد في عملنا.</p>
+      <p>إن أي فكرة عمل هي مجرد فكرة عادية. لكن الفكرة المدعومة بمنطق واضح ، واستراتيجية عمل قوية ، وفريق خبير تصبح أكثر من فكرة، فهي مشروع استثماري كبير يستحق المباشرة بالتنفيذ فورًا</p>
       </div>
 
     <div class="about-image-box">
@@ -48,8 +48,10 @@
 
     <div class="fluid-box">
       <div class="fluid-left">
-        <p style="text-align: left;">
-       Our expansion nationwide has allowed us to build a dynamic atmosphere that brings new insights to any challenge and opportunity. As a result, we gained multiple and wide ranges of perceptions and experiences, which encouraged our strength and expanded our domestic and international investments. We are open to more investments and new opportunities. Our goal is to invest in new sectors and build a strong portfolio that will be known around the world. Also, we would like to have new business partners. We believe diversity encourages performance. We don't just respect difference; We consciously look for the difference and welcome it
+        <p>
+         
+لقد سمح لنا توسعنا على مستوى المملكة ببناء جو ديناميكي يجلب رؤى جديدة لأي تحد وفرصة. نتيجة لذلك ، اكتسبنا نطاقات متعددة وواسعة من التصورات والخبرات ، مما شجع قوتنا ووسع استثماراتنا المحلية والدولية. نحن منفتحون على المزيد من الاستثمارات والفرص الجديدة. هدفنا هو الاستثمار في قطاعات جديدة وبناء محفظة قوية تكون معروفة في جميع أنحاء العالم. أيضًا ، نود أن يكون لدينا شركاء أعمال جدد. نعتقد أن التنوع يشجع الأداء. نحن لا نحترم الاختلاف فقط ؛ نحن نبحث بوعي عن الفرق ونرحب به
+
         </p>
       </div>
       <div class="fluid-right">
@@ -60,7 +62,7 @@
     <section class="contact" id="contactus">
       <div class="sec-padding" style="padding-bottom:0px;">
         <div class="contact-head">
-          <h1>CALL US</h1>
+          <h1>اتصل بنا</h1>
           <span></span>
         </div>
         <div class="map">
@@ -87,9 +89,10 @@
           <div class="contact-detail">
             <div class="contact-detail1">
               <div class="inqui">
-                <h4>Call Us</h4>
+                <h4>اتصل بنا </h4>
                 <p>
-                   Please use the following methods to contact us whether you have an offer, business partnership, investment or job application.
+                  يرجى استخدام الطرق التالية للاتصال بنا سواء كان لديك عرض أو شراكة تجارية أو استثمار أو طلب لوظيفة.
+                  <!-- <br>proposal, inquiries, investment, or job application. -->
                 </p>
               </div>
               <div class="contact-form">
@@ -120,19 +123,19 @@
               <div class="inqui">
                 <h4>Head Office</h4>
                 <p>
-                  Kingdom of Saudi Arabia - Jeddah - King Abdul Aziz Road, King
-                  <br>Tower, 10th floor, 1009.
+                  المملكة العربية السعودية - جدة - طريق الملك عبد العزيز
+                  <br>برج الملك ، الطابق العاشر ، 1009.
                 </p>
               </div>
               <ul>
                 <li>
                   <img src="../assets/img/lo.jpg">
-                  <span>P.O. Box 2388 Jeddah 21436</span>
+                  <span>صندوق بريد 2388، جدة 21436</span>
                 </li>
                 <li>
                   <img src="../assets/img/phone.png" style="width: 21px;
     margin-top: 8px;">
-                  <span>Phone: 012 606 0443</span>
+                  <span>هاتف: 012 606 0443</span>
                 </li>
                 <li>
                   <img src="../assets/img/envo.png" style="width: 20px;

@@ -20,7 +20,7 @@
   </div>
   <nav>
     <p><router-link to='/home' class="navi">
-     Homepage
+     الصفحة الرئيسية 
      </router-link></p>
            <div class="accordian-main">
    <div class="col">
@@ -28,43 +28,43 @@
       <div class="tab" style="margin-top: 0;">
         <input type="checkbox" id="chck1">
         <label class="tab-label" for="chck1">
-                                Information About Us
+                                معلومات عنا
                             </label>
         <div class="tab-content">
-        <router-link to='/aboutcompany' class="aboutcompany"> About Company</router-link>
+        <router-link to='/aboutcompany' class="aboutcompany">  عن الشركة </router-link>
         </div>
           <div class="tab-content">
-        <router-link to='/aboutchairman' class="aboutchairman"> For The President</router-link>
-        </div>
-
-          <div class="tab-content">
-        <router-link to='/ourstrategy' class="ourstrategy"> Our Strategy</router-link>
+        <router-link to='/aboutchairman' class="aboutchairman">  عن الرئيس</router-link>
         </div>
 
           <div class="tab-content">
-        <router-link to='/philogy' class="philogy">  Our Philosophy</router-link>
+        <router-link to='/ourstrategy' class="ourstrategy">  استراتيجيتنا</router-link>
+        </div>
+
+          <div class="tab-content">
+        <router-link to='/philogy' class="philogy">  فلسفتنا</router-link>
         </div>
       </div>
       <div class="tab" style="margin-bottom: 0;">
         <input type="checkbox" id="chck2">
         <label class="tab-label" for="chck2">
-                                Investments
+                                استثمارات
                             </label>
         <!-- <div class="tab-content">
            <router-link to='/ourinvestment'  class="ourinvestment"> Our Investment </router-link>
         </div> -->
         
         <div class="tab-content">
-           <router-link to='/ourinvestment' class="petroleumsector">Our Investments</router-link>
+           <router-link to='/ourinvestment' class="petroleumsector">استثماراتنا </router-link>
         </div>
         <div class="tab-content">
-           <router-link to='/petroleumsector' class="powersector">Petroleum Sector</router-link>
+           <router-link to='/petroleumsector' class="powersector">قطاع البترول </router-link>
         </div>
         <div class="tab-content">
-           <router-link to='/powersector' class="realstatesector">Energy Sector</router-link>
+           <router-link to='/powersector' class="realstatesector">قطاع الطاقة </router-link>
         </div>
         <div class="tab-content">
-           <router-link to='/healthsector' class="healthsector">The Hotel Sector </router-link>
+           <router-link to='/healthsector' class="healthsector">اقطاع الفنادق  </router-link>
         </div>
         <!-- <div class="tab-content">
            <router-link to='/itsector' class="itsector">It Sector </router-link>
@@ -73,8 +73,8 @@
     </div>
   </div>
         </div>
-    <p><router-link to='/carrier' class="carrier"> Careers</router-link></p>
-    <p style="padding-top: 0; padding-bottom:0;"><a href="http://mysite.codesation.com/#contactus" class="contact"> Call Us</a></p>
+    <p><router-link to='/carrier' class="carrier">وظائف </router-link></p>
+    <p style="padding-top: 0; padding-bottom:0;"><a href="http://mysite.codesation.com/#contactus" class="contact">  اتصل بنا</a></p>
     
  <div class="accordian-main">
    <div class="col">
@@ -117,31 +117,31 @@
       <div class="nav-bar" id="myDIV">
         <ul>
           <li class="active nav-bar-li">
-            <a href=""><router-link to='/home'>Homepage</router-link></a>
+            <a href=""><router-link to='/home'>الصفحة الرئيسية </router-link></a>
           </li>
           <li>
            
-                            Information About Us
+                            معلومات عنا
                         
 
             <div class="sub-menu">
               <ul>
                 <li class="nav-bar-li">
-                  <a href> <router-link to='/aboutcompany'>About Company</router-link></a>
+                  <a href> <router-link to='/aboutcompany'> عن الشركة </router-link></a>
                 </li>
                 <br>
                 <li class="nav-bar-li">
-                  <a href> <router-link to='/aboutchairman'>For The President</router-link> </a>
+                  <a href> <router-link to='/aboutchairman'> عن الرئيس </router-link> </a>
                 </li>
                 <br>
 
                   <li class="nav-bar-li">
-                  <a href> <router-link to='/ourstrategy'>Our Strategy</router-link> </a>
+                  <a href> <router-link to='/ourstrategy'> استراتيجيتنا </router-link> </a>
                 </li>
                 <br>
 
                   <li class="nav-bar-li">
-                  <a href> <router-link to='/philogy'>Our Philosophy</router-link> </a>
+                  <a href> <router-link to='/philogy'> فلسفتنا </router-link> </a>
                 </li>
 
                 <br>
@@ -149,20 +149,20 @@
             </div>
           </li>
           <li >
-         Investments
+         استثمارات
             <div class="sub-menu">
               <ul>
                 <li class="nav-bar-li">
-                  <a href> <router-link to='/ourinvestment'> Our Investments</router-link></a>
+                  <a href> <router-link to='/ourinvestment'> استثماراتنا </router-link></a>
                 </li>
   <br>
 
                 <li class="nav-bar-li">
-                  <a href> <router-link to='/petroleumsector'>Petroleum Sector</router-link></a>
+                  <a href> <router-link to='/petroleumsector'>قطاع البترول </router-link></a>
                 </li>
   <br>
                   <li class="nav-bar-li">
-                  <a href> <router-link to='/powersector'> Energy Sector</router-link></a>
+                  <a href> <router-link to='/powersector'>قطاع الطاقة</router-link></a>
                 </li>
   <br>
 
@@ -171,7 +171,7 @@
                 </li> -->
 
                 <li class="nav-bar-li">
-                  <a href> <router-link to='/healthsector'>The Hotel Sector</router-link></a>
+                  <a href> <router-link to='/healthsector'>قطاع الفنادق</router-link></a>
                 </li>
   <br>
 
@@ -185,11 +185,11 @@
             </div>
           </li>
           <li class="nav-bar-li">
-            <a href=""> <router-link to='/carrier'>Careers</router-link></a>
+            <a href=""> <router-link to='/carrier'>وظائف</router-link></a>
             
           </li>
           <li class="nav-bar-li">
-            <a href="http://mysite.codesation.com/#contactus">Call Us</a>
+            <a href="http://mysite.codesation.com/#contactus">اتصل بنا</a>
           </li>
 
               <li>

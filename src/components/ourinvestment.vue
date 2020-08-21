@@ -6,9 +6,13 @@
 <section id="our-investment" style="">
 <div class="about-startege2">
 <div class="startege2-main">
-<h3>Our Investments</h3>
-<p>Al Nasser Investment Company is a multinational company with investments covering the most competitive industries around the globe. These include the petroleum sector, energy sector, and hotel & real estate development sector.</p>
-<p>We focus on investing primarily in private companies and ventures. Our aim here is to gain prominent minority stakes with sufficient minority security privileges and board seats to ensure our investment thesis and plan is executed. Although our primary aim indirect investment is to maximize returns, we take into account other considerations when investing, including the possible position of the investment in contributing to the growth of the Saudi economy, the transition of knowledge and technology to local markets, as well as the contribution to national objectives.</p>
+<h3 style="text-align: left;">Our investments</h3>
+<p style="text-align: left;">
+	Al Nasser Investment Company is a multinational company that offers investments that cover the most competitive industries around the world, including the petroleum sector, the energy sector, and the hotel and real estate development sector.
+</p>
+<p style="text-align: left;">
+We focus on investing in companies and private projects in the first place. Our goal here is to obtain prominent stakes with security concessions and sufficient board seats to ensure the implementation of our thesis and investment plan. Although our primary goal in direct investment is to maximize returns, we take other considerations into account when investing, including the potential status of investment in contributing to the growth of the Saudi economy, importing knowledge and technology into local markets, as well as contributing to national goals.
+</p>
 </div>
 </div>
 </section>

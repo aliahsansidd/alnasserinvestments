@@ -4,8 +4,9 @@
 <section id="petroleum-sector">
 <div class="investment-container">
 <div class="investment-head">
-<h1>Petroleum Sector</h1>
-<p>Al Nasser Investment Company has made several investments in the oil and gas field. By extending into value-added goods and diversifying our portfolio, we continue to invest in remarkable petroleum companies. Also, we produce income from our significant commitments over the long term.</p>
+
+<h1 style="text-align: left;">Petroleum sector investments</h1>
+<p style="text-align: left;">The oil and gas industry is one of the main industries in the Kingdom of Saudi Arabia. This is economically important and plays a critical role in shaping decisions in many areas of the global economy. Al Nasser Investment Company has made several investments in the field of oil and gas. We also continue to invest in important petroleum companies by expanding into value-added commodities and diversifying our investments. We also generate income from our large long-term liabilities.</p>
 <span class="linnes"></span>
 </div>
 <div class="investment-box">
@@ -14,9 +15,12 @@
 <img src="../assets/img/dox.jpg">
 </div>
 <div class="investment-box-content">
-<h5>DOX</h5>
-<h6>Petroleum Company</h6>
-<p>The oil and gas industry is among Saudi Arabia's ing industries. This is economically significant and plays a crucial role in shaping decisions in many global economic spheres. The company is dedicated to delivering the newest and most innovative technologies in the lubricants and gas market. It retains exceptionally attentive and scalable logistics to ensure timely deliveries and reliable operation throughout the country with an emphasis on maintaining the highest standard of quality.</p>
+<h5 style="text-align: left;">Dox Petroleum Company</h5>
+<!-- <h6>Petroleum Company</h6> -->
+<p style="text-align: left;">
+ Dox Petroleum is a petroleum-based company. The company strives to become one of the leaders in the oil and gas industry in the Kingdom of Saudi Arabia. The company is also dedicated to bringing the latest and most innovative technologies to the oil and gas market and maintaining attentive and scalable logistics services to ensure timely delivery and certified operations across the country with an emphasis on maintaining the highest quality standards.
+
+</p>
 </div>
 </div>
 </div>
@@ -26,9 +30,11 @@
 <img src="../assets/img/tabeh.jpg">
 </div>
 <div class="investment-box-content">
-<h5>Tebah</h5>
-<h6>Fuel Station</h6>
-<p>Tebah fuel station is of the first fuel station that was owned by the company in the year 2000, located in Yanbu city. From there, the plan of extending the investments in the petroleum sector was initiated. Today, the company gets many benefits from investing in a gas station in Saudi Arabia.</p>
+<h5 style="text-align: left;">Good fuel stations</h5>
+<!-- <h6>Fuel Station</h6> -->
+<p style="text-align: left;">
+    Taiba fuel stations in Yanbu is the first fuel station that the company owned in 2000, and then its expansion plan began. Today, the company gets a lot of benefits from investing in the fuel station in the Kingdom of Saudi Arabia.
+</p>
 </div>
 </div>
 </div>

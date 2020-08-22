@@ -1,21 +1,16 @@
 <template>
   <div id="app">
-    <Header/>
+    <!-- <Header/> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <router-view />
-    <Footer/>
+    <!-- <Footer/> -->
   </div>
 </template>
 
 <script>
-import Header from './shared/Header.vue';
-import Footer from './shared/Footer.vue';
 export default {
   name: 'App',
-  components: {
-    Header,
-    Footer
-  }
+
 }
 </script>
 

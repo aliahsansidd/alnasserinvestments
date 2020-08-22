@@ -187,7 +187,11 @@ export default {
     Slide,
     HooperNavigation
   },
-
+      mounted() {
+            var section=this.$router.currentRoute.hash.replace("#", "");
+            if (section)
+                this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+        },
   props: {
     msg: String
   }

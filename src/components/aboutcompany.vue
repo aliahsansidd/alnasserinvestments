@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="text-align: left;">
        <section id="abt-company">
 <div class="abt-company-main">
 <div class="abt-company-1">

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="text-align: left;">
 <!-- ******************************petroleum sector*********************************** -->
 <section id="real-sector">
 <div class="investment-container">

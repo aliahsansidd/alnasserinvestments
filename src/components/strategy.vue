@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="text-align: left;">
 <!-- ******************************about-startege*********************************** -->
 
 <section id="about-startege" style="">

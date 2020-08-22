@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="text-align: left;">
 <!-- ******************************petroleum sector*********************************** -->
 <section id="health-sector">
 <div class="investment-container">
@@ -7,7 +7,7 @@
 <h1 style="text-align: left;">Our investments </h1>
 <p style="text-align: left;">Al Nasser Investment Company is a multinational company that offers investments that cover the most competitive industries around the world, including the petroleum sector, the energy sector, and the hotel and real estate development sector.</p>
 <p style="text-align: left;">We focus on investing in companies and private projects in the first place. Our goal here is to obtain prominent stakes with security concessions and sufficient board seats to ensure the implementation of our thesis and investment plan. Although our primary goal in direct investment is to maximize returns, we take other considerations into account when investing, including the potential status of investment in contributing to the growth of the Saudi economy, importing knowledge and technology into local markets, as well as contributing to national goals.</p>
-<h1> Real estate development sector</h1>
+<h1 style="text-align: left;"> Real estate development sector</h1>
 <p style="text-align: left;">Al Nasser Investment Company invests in a wide range of local and international real estate - from hotels, shopping centers, restaurants, residential complexes, business towers, commercial and residential plans.</p>
 <span class="linnes"></span>
 </div>

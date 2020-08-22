@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="text-align: left;">
     <section id="about-philospy">
       <div class="about-startege2">
         <div class="startege2-main">
